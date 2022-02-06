@@ -9,3 +9,7 @@
 #### search.py
 
     python search.py <inverted_index_path> <query>
+    
+### Link to wiki dump:
+
+[Click to download](https://dumps.wikimedia.org/enwiki/20220201/enwiki-20220201-pages-articles-multistream1.xml-p1p41242.bz2)
