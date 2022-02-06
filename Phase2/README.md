@@ -1,5 +1,25 @@
 # Phase-2
 
+## Type of queries:
+
+### Plain queries:
+Lionel Messi
+
+Sachin Tendulkar
+### Field queries:
+| Field | Symbol         |
+|-------|----------------|
+| t     | Title          |
+| b     | Body           |
+| i     | Infobox        |
+| c     | Category       |
+| l     | External Links |
+| r     | References     |
+
+**t:World Cup i:2019 c:cricket**
+
+Denotes Search for World Cup in title, 2019 in infobox and cricket in category.
+
 ## How to run:
 
 #### indexer.py
@@ -10,6 +30,7 @@
    
 
     python secondary.py
+    python id_to_title.py
 
 ####  search.py
 
